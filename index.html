@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title>Page</title>
+</head>
+<body>
+	<div>
+		<h1>Страничка по заказу/Page</h1>
+		<form>
+			<table>
+
+				<tr>
+					<th>Заголовок/Title</th>
+					<td colspan="2">
+						<input type="text" size="40" id="zagol">
+					</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td>
+						<input type="checkbox" id="k1">
+					</td>
+					<td>Собака/Dog</td>
+				</tr>
+
+				<tr>
+					<th>Картинка/Picture</th>	
+					<td>
+						<input type="checkbox" id="k2">
+					</td>
+					<td>Одинокий цветок/Flower</td>
+				</tr>
+
+				<tr>
+					<td></td>
+						<td>
+							<input type="checkbox" id="k3">
+						</td>
+					<td>Букет/Flowers</td>
+				</tr>
+
+				<tr>
+					<th>Подпись/Sign</th>
+					<td colspan="2">
+						<input type="text" size="40" id="tekst">
+					</td>
+				</tr>
+
+				<tr>
+					<th>Цвет фона/Backgroung color</th>
+					<td></td>
+					<th>Цвет текста/Font color</th>
+				</tr>
+
+				<tr>
+					<td>
+						<select>
+							<option id="white">Белый/White</option>
+							<option id="black">Черный/Black</option>
+							<option id="blue">Синий/Blue</option>
+						</select>
+					</td>
+					<td>
+						<img src="screen1.png" width="70" height="25">
+					</td>
+					<td>
+						<input type="radio" name="color" value="white" id="bwhite">
+					</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td>
+						<img src="screen2.png" width="70" height="25">
+					</td>
+					<td>
+						<input type="radio" name="color" value="black" id="bblack">
+					</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td>
+						<img src="screen3.png" width="70" height="25">
+					</td>
+					<td>
+						<input type="radio" name="color" value="blue" id="bblue">
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<input type="reset" name="btn" value="Очистить/Reset">
+					</td>
+					<td></td>
+					<td>
+						<button onclick="start()">Показать/Show</button>
+					</td>
+				</tr>
+
+			</table>
+		</form>
+	</div>
+</body>
+</html>

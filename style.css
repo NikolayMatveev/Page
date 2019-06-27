@@ -1,0 +1,10 @@
+body {
+	background-color: #0BD5A3;
+	text-align: left;
+}
+
+div {
+	padding: 5px;
+	width: 500px;
+	border: 2px solid black;
+}
